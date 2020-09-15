@@ -2,19 +2,8 @@ package lukina.valeria;
 
 import java.math.BigInteger;
 
-//import java.util.Scanner;
-//ctrl + лкм   реализация методов
-
 class PrimeNumbers {
-    public static void main(String[] args) {                    //psvm
-        /*
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please, enter the first point:");   //sout
-        int first = input.nextInt();
-        System.out.println("Please, enter the second point:");
-        int second = input.nextInt();
-         */ //ввод с консоли
-
+    public static void main(String[] args) {                   
         BigInteger first = BigInteger.valueOf(0);
         BigInteger second = BigInteger.valueOf(0);
 
@@ -27,10 +16,6 @@ class PrimeNumbers {
         }
         printNum(first, second);
     }
-
-    //как называется?
-    //почему косячит?
-    //исправить?
 
     static BigInteger three = new BigInteger("3");
     static BigInteger twF = new BigInteger("24");
